@@ -2,12 +2,17 @@
 # Overview
 The following project includes the smart contract for minting a NFT using  ERC-721.This includes the contract,deploying the metadata and the image on ipfs, and actually minting the transaction on a testnet
 
-#Learning
+# Learning
 The"why" of a NFT.
+
 Basics of Solidity.
+
 Use of ERC-721 docs
+
 Use of Pinata 
+
 What a IPFS is.
+
 OpenSea marketplace for NFT
 
 # Research
