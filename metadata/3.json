@@ -1,0 +1,15 @@
+{
+    "name": "Squirtle",
+    "description": "more like just a turtle",
+    "image": "https://ipfs.io/ipfs/bafybeihjc2ed4pq2qn2l3m4km5m4ajyewdpba7yffxezj7tz7dv46h4unu/3.jpg",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Eyes",
+            "value": "Red"
+        }
+    ]
+}
