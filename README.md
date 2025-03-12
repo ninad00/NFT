@@ -1,42 +1,66 @@
-# NFT
-# Overview
-The following project includes the smart contract for minting a NFT using  ERC-721.This includes the contract,deploying the metadata and the image on ipfs, and actually minting the transaction on a testnet.Checking
+## Foundry
 
-# Learning
-The"why" of a NFT.
+**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-Basics of Solidity.
+Foundry consists of:
 
-Use of ERC-721 docs
+-   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
+-   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
+-   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
+-   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-Use of Pinata 
+## Documentation
 
-What a IPFS is.
+https://book.getfoundry.sh/
 
-OpenSea marketplace for NFT
+## Usage
 
-# Research
-Unique identity of a ledger or an artpiece is the core of an NFT.NFT of a art piece can be thought of as a art which is signed by the artist itself. This increases its value.
-The ERC-721 docs and tutorial on ipfs helped to deploy and develop smart contract.
+### Build
 
-# Code and results
-![image](https://github.com/user-attachments/assets/a8368a70-7512-431b-b6ca-39d5db0b2138)
+```shell
+$ forge build
+```
 
+### Test
 
-Uploading files and metadata on pinata
-![image](https://github.com/user-attachments/assets/bb020587-2953-4f93-b3c6-39a75b995650)
+```shell
+$ forge test
+```
 
+### Format
 
-Using SEpolia testnet to mint a NFT
-![image](https://github.com/user-attachments/assets/bd7db687-f32f-4fb4-90c4-bda701bc28e4)
+```shell
+$ forge fmt
+```
 
+### Gas Snapshots
 
-![image](https://github.com/user-attachments/assets/f4438ee9-a998-440c-81c9-2db0cfd81c52)
+```shell
+$ forge snapshot
+```
 
+### Anvil
 
+```shell
+$ anvil
+```
 
+### Deploy
 
+```shell
+$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+```
 
+### Cast
 
+```shell
+$ cast <subcommand>
+```
 
+### Help
 
+```shell
+$ forge --help
+$ anvil --help
+$ cast --help
+```
